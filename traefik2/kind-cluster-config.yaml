@@ -16,3 +16,11 @@ nodes:
     hostPort: 8002
     listenAddress: "127.0.0.1" # Optional, defaults to "0.0.0.0"
     protocol: tcp # Optional, defaults to tcp
+  - containerPort: 30003
+    hostPort: 8003
+    listenAddress: "127.0.0.1" # Optional, defaults to "0.0.0.0"
+    protocol: tcp # Optional, defaults to tcp
+  - containerPort: 30004
+    hostPort: 8004
+    listenAddress: "127.0.0.1" # Optional, defaults to "0.0.0.0"
+    protocol: tcp # Optional, defaults to tcp
